@@ -1,5 +1,4 @@
 import { ArrowDown } from "lucide-react";
-import { Link } from "react-router";
 
 interface Props {
   name: string;
