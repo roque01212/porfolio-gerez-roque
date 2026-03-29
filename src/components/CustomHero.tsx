@@ -47,7 +47,7 @@ export const CustomHero = ({ name }: Props) => {
           <img
             className="rounded-t-4xl w-md object-cover mask-b-from-40% mask-b-to-100% "
             // className="w-md mask-radial-at-center mask-radial-from-40% mask-radial-to-75%"
-            src="../public/emanuel.jpg"
+            src="/emanuel.jpg"
             alt=""
           />
         </div>
