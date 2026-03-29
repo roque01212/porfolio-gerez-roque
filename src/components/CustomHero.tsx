@@ -6,7 +6,7 @@ interface Props {
 export const CustomHero = ({ name }: Props) => {
   return (
     <section className="min-h-screen flex flex-col justify-center  px-6 md:px-16 lg:px-24 relative">
-      <div className="flex justify-evenly">
+      <div className="flex justify-evenly xl:flex-row flex-col items-center gap-10">
         <div className="max-w-4xl ">
           <p className="text-primary font-display text-sm md:text-base tracking-widest uppercase mb-4 animate-fade-up">
             Desarrollador Frontend
@@ -54,7 +54,7 @@ export const CustomHero = ({ name }: Props) => {
       </div>
       <a
         href="#sobreMi"
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 text-muted-foreground hover:text-primary transition-colors animate-bounce"
+        className="absolute bottom-10 left-1/2 -translate-x-1/2 text-muted-foreground hover:text-primary transition-colors animate-bounce xl:block hidden  "
       >
         <ArrowDown size={24} />
       </a>
