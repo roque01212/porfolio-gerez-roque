@@ -1,10 +1,10 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import { PorfolioApp } from "./PorfolioApp";
+import { PortfolioApp } from "./PortfolioApp";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <PorfolioApp />
+    <PortfolioApp />
   </StrictMode>,
 );

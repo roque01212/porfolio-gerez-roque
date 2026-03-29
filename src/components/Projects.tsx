@@ -4,26 +4,42 @@ import { FaGithub } from "react-icons/fa";
 export const Projects = () => {
   const projects = [
     {
-      title: "Landing Page Moderna",
+      title: "App de Acreditación por Escaneo de DNI",
       description:
-        "Sitio web responsive creado con HTML, CSS y JavaScript vanilla.",
-      tech: ["HTML", "CSS", "JS"],
-      github: "https://github.com/tu-usuario/landing-page",
+        "Aplicación móvil desarrollada para agilizar la acreditación de personas en eventos, integrando escaneo de DNI con actualización automática en Google Sheets.",
+      tech: [
+        "React Native",
+        "Expo",
+        "Google Sheets API",
+        "Google Apps Script",
+        "AsyncStorage",
+      ],
+      github: "",
+      live: "",
+    },
+    {
+      title: "Feed Good Food – E-commerce",
+      description:
+        "Aplicación web de comercio electrónico con catálogo de productos, filtrado por categorías, vista de detalle, carrito persistente y generación de órdenes con Firebase.",
+      tech: ["React", "TypeScript", "React Router", "Firebase", "Tailwind CSS"],
+      github: "",
+      live: "https://feedgoodfood.vercel.app/",
+    },
+    {
+      title: "Agenda Telefónica Web",
+      description:
+        "Aplicación web responsive para gestionar contactos telefónicos, aplicando lógica de programación, manipulación del DOM y organización dinámica de datos.",
+      tech: ["JavaScript", "HTML", "CSS"],
+      github: "",
+      live: "https://segunda-entrega-js-one.vercel.app/",
+    },
+    {
+      title: "La Fuente Salta – Sitio Web Responsive",
+      description:
+        "Sitio web estático enfocado en maquetación, diseño adaptable y organización de estilos para una experiencia visual clara y responsive.",
+      tech: ["HTML", "CSS", "SASS"],
+      github: "",
       live: "https://roque01212.github.io/LaFuenteSalta/",
-    },
-    {
-      title: "App de Tareas",
-      description: "Aplicación CRUD de tareas construida con React y hooks.",
-      tech: ["React", "CSS Modules"],
-      github: "https://github.com/tu-usuario/todo-app",
-      live: "",
-    },
-    {
-      title: "Portfolio Personal",
-      description: "Este mismo portfolio, construido con React y Tailwind CSS.",
-      tech: ["React", "Tailwind", "TypeScript"],
-      github: "https://github.com/tu-usuario/portfolio",
-      live: "",
     },
   ];
 
@@ -31,10 +47,10 @@ export const Projects = () => {
     <section id="proyectos" className="py-24 px-6 md:px-16 lg:px-24 bg-card/50">
       <div className="max-w-6xl mx-auto">
         <p className="text-primary font-display text-sm tracking-widest uppercase mb-2">
-          Trabajo
+          proyectos
         </p>
         <h2 className="font-display text-3xl md:text-5xl font-bold mb-12">
-          Proyectos
+          Algunos trabajos que realicé
         </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project) => (

@@ -4,7 +4,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 const queryClient = new QueryClient();
 
-export const PorfolioApp = () => {
+export const PortfolioApp = () => {
   return (
     <QueryClientProvider client={queryClient}>
       <RouterProvider router={appRoute} />

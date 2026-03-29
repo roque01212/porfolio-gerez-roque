@@ -1,15 +1,17 @@
+import { About } from "@/components/About";
 import { Courses } from "@/components/Courses";
-import { CustomFooter } from "@/components/CustomFooter";
 import { CustomHero } from "@/components/CustomHero";
 import { Projects } from "@/components/Projects";
+import { Skills } from "@/components/Skills";
 
 export const HomePage = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <main>
       <CustomHero name="Gerez Roque Emanuel" />
-      <Courses />
+      <About title={"Implementar seccion sobre mi"} />
+      <Skills title={"Implementar seccion de habilidades"} />
       <Projects />
-      <CustomFooter />
-    </div>
+      <Courses />
+    </main>
   );
 };
