@@ -8,7 +8,7 @@ export const courses = [
     description:
       "Formación en maquetación web con HTML y CSS, diseño responsive, estructura semántica y buenas prácticas de interfaz.",
     tags: ["HTML", "CSS", "Responsive"],
-    diploma: "../public/desarrolloweb.png",
+    diploma: "/desarrolloweb.png",
   },
   {
     id: "2",
@@ -17,7 +17,7 @@ export const courses = [
     description:
       "Aprendizaje de lógica de programación, manipulación del DOM, funciones, asincronía, ES6+ y bases sólidas para desarrollo frontend.",
     tags: ["JavaScript", "DOM", "Async"],
-    diploma: "../public/javascript.png",
+    diploma: "/javascript.png",
   },
   {
     id: "3",
@@ -26,6 +26,6 @@ export const courses = [
     description:
       "Desarrollo de interfaces con componentes, props, hooks, manejo de estado, routing y consumo de APIs en proyectos reales.",
     tags: ["React", "Hooks", "Router"],
-    diploma: "../public/react.png",
+    diploma: "/react.png",
   },
 ];
