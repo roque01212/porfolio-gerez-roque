@@ -47,12 +47,12 @@ export const Projects = () => {
     <section id="proyectos" className="py-24 px-6 md:px-16 lg:px-24 bg-card/50">
       <div className="max-w-6xl mx-auto">
         <p className="text-primary font-display text-sm tracking-widest uppercase mb-2">
-          proyectos
+          Proyectos
         </p>
         <h2 className="font-display text-3xl md:text-5xl font-bold mb-12">
-          Algunos trabajos que realicé
+          Algunos de mis proyectos recientes
         </h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid  md:grid-cols-2 gap-6">
           {projects.map((project) => (
             <div
               key={project.title}
@@ -75,14 +75,16 @@ export const Projects = () => {
                 ))}
               </div>
               <div className="flex justify-center  gap-5">
-                <a
-                  href={project.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-muted-foreground hover:text-primary transition-colors"
-                >
-                  <FaGithub size={22} />
-                </a>
+                {project.github && (
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-muted-foreground hover:text-primary transition-colors"
+                  >
+                    <FaGithub size={22} />
+                  </a>
+                )}
                 {project.live && (
                   <a
                     href={project.live}

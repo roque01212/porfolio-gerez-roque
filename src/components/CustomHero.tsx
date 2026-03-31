@@ -5,11 +5,11 @@ interface Props {
 }
 export const CustomHero = ({ name }: Props) => {
   return (
-    <section className="min-h-screen flex flex-col justify-center  px-6 md:px-16 lg:px-24 relative">
+    <section className="min-h-screen flex flex-col justify-center  px-6 md:px-16 lg:px-24 mt-4 xl:mt-0  relative">
       <div className="flex justify-evenly xl:flex-row flex-col items-center gap-10">
         <div className="max-w-4xl ">
           <p className="text-primary font-display text-sm md:text-base tracking-widest uppercase mb-4 animate-fade-up">
-            Desarrollador Frontend
+            Desarrollador Web y Mobile Junior
           </p>
           <h1
             className="font-display text-5xl md:text-7xl lg:text-8xl font-bold text-white leading-[0.95] mb-6 animate-fade-up"
@@ -21,9 +21,9 @@ export const CustomHero = ({ name }: Props) => {
             className="text-muted-foreground text-lg md:text-xl max-w-xl mb-10 animate-fade-up font-body"
             style={{ animationDelay: "0.2s" }}
           >
-            Desarrollo interfaces web y aplicaciones móviles con React, React
-            Native, TypeScript y Firebase, enfocándome en crear soluciones
-            funcionales, claras y bien estructuradas.
+            Desarrollo proyectos web y móviles con React, React Native,
+            TypeScript y Firebase, mientras continúo fortaleciendo mis
+            habilidades y sumando experiencia en proyectos prácticos.
           </p>
           <div
             className="flex gap-4 animate-fade-up"
@@ -46,14 +46,13 @@ export const CustomHero = ({ name }: Props) => {
         <div>
           <img
             className="rounded-t-4xl w-md object-cover mask-b-from-40% mask-b-to-100% "
-            // className="w-md mask-radial-at-center mask-radial-from-40% mask-radial-to-75%"
             src="/emanuel.jpg"
             alt=""
           />
         </div>
       </div>
       <a
-        href="#sobreMi"
+        href="#sobre-mi"
         className="absolute bottom-10 left-1/2 -translate-x-1/2 text-muted-foreground hover:text-primary transition-colors animate-bounce xl:block hidden  "
       >
         <ArrowDown size={24} />
