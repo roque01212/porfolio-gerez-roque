@@ -16,7 +16,7 @@ export const Courses = () => {
         <div className="grid md:grid-cols-2 gap-6">
           {courses.map((course) => (
             <Link
-              to={`image/${course.id}`}
+              to={`/image/${course.id}`}
               key={course.title}
               className="relative bg-card border border-border rounded-lg p-6 hover:border-primary/50 hover:glow-primary transition-all duration-300 group overflow-visible"
             >

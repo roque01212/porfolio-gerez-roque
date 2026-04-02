@@ -5,7 +5,7 @@ interface Props {
 }
 export const CustomHero = ({ name }: Props) => {
   return (
-    <section className="min-h-screen flex flex-col justify-center  px-6 md:px-16 lg:px-24 mt-20 xl:mt-0  relative">
+    <section className="min-h-screen flex flex-col justify-center  px-6 md:px-16 lg:px-24 xl:mt-0  mt-20 relative">
       <div className="flex justify-evenly xl:flex-row flex-col items-center gap-10">
         <div className="max-w-4xl ">
           <p className="text-primary font-display text-sm md:text-base tracking-widest uppercase mb-4 animate-fade-up">
