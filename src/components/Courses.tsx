@@ -1,32 +1,6 @@
 import { courses } from "@/interface/cursos";
 import { Link } from "react-router";
 
-//   {
-//     icon: Monitor,
-//     title: "Diseño Web",
-//     description:
-//       "HTML5, CSS3, responsive design, accesibilidad y principios de UX/UI.",
-//     tags: ["HTML", "CSS", "Responsive"],
-//     diploma: "../public/desarrolloweb.png",
-//   },
-//   {
-//     icon: Code2,
-//     title: "JavaScript",
-//     description:
-//       "Fundamentos, ES6+, asincronía, manipulación del DOM y patrones de diseño.",
-//     tags: ["ES6+", "Async", "DOM"],
-//     diploma: "../public/javascript.png",
-//   },
-//   {
-//     icon: Layers,
-//     title: "React JS",
-//     description:
-//       "Componentes, hooks, estado, routing, consumo de APIs y ecosistema React.",
-//     tags: ["Hooks", "Router", "API"],
-//     diploma: "../public/react.png",
-//   },
-// ];
-
 export const Courses = () => {
   return (
     <section id="cursos" className="py-24 px-6 md:px-16 lg:px-24">
@@ -36,10 +10,10 @@ export const Courses = () => {
         </p>
 
         <h2 className="font-display text-3xl md:text-5xl font-bold mb-12">
-          Cursos completados
+          Formación académica y cursos
         </h2>
 
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 gap-6">
           {courses.map((course) => (
             <Link
               to={`image/${course.id}`}
@@ -76,7 +50,7 @@ export const Courses = () => {
                 <div className="rounded-xl border border-border bg-card p-2 shadow-2xl">
                   <img
                     src={course.diploma}
-                    alt={`Diploma del curso ${course.title}`}
+                    alt={` Documento o certificado de ${course.title}`}
                     className="w-full h-auto rounded-lg object-cover"
                   />
                 </div>
