@@ -22,7 +22,7 @@ export const Projects = () => {
       description:
         "Aplicación web de comercio electrónico con catálogo de productos, filtrado por categorías, vista de detalle, carrito persistente y generación de órdenes con Firebase.",
       tech: ["React", "TypeScript", "React Router", "Firebase", "Tailwind CSS"],
-      github: "",
+      github: "https://github.com/roque01212/CreaTuLanding_GerezRoque.git",
       live: "https://feedgoodfood.vercel.app/",
     },
     {
@@ -30,7 +30,7 @@ export const Projects = () => {
       description:
         "Aplicación web responsive para gestionar contactos telefónicos, aplicando lógica de programación, manipulación del DOM y organización dinámica de datos.",
       tech: ["JavaScript", "HTML", "CSS"],
-      github: "",
+      github: "https://github.com/roque01212/SegundaEntregaJS.git",
       live: "https://segunda-entrega-js-one.vercel.app/",
     },
     {
@@ -38,7 +38,7 @@ export const Projects = () => {
       description:
         "Sitio web estático enfocado en maquetación, diseño adaptable y organización de estilos para una experiencia visual clara y responsive.",
       tech: ["HTML", "CSS", "SASS"],
-      github: "",
+      github: "https://github.com/roque01212/LaFuenteSalta.git",
       live: "https://roque01212.github.io/LaFuenteSalta/",
     },
   ];
