@@ -1,5 +1,6 @@
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import { Link } from "react-router";
 
 const navLinks = [
   { label: "Sobre mí", href: "#sobre-mi" },
@@ -14,7 +15,7 @@ export const CustomNavbar = () => {
 
   return (
     <header className="fixed top-0 left-0 w-full z-50 border-b border-border/40 bg-background/80 backdrop-blur-md">
-      <div className="max-w-6xl mx-auto px-6 md:px-16 lg:px-24 h-16 flex items-center justify-between">
+      <div className="max-w-6xl mx-auto px-6 md:px-16  h-16 flex items-center justify-between">
         <a
           href="#"
           className="font-display text-lg md:text-xl font-semibold text-primary"
@@ -37,7 +38,7 @@ export const CustomNavbar = () => {
             href="/CV-GerezRoque.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-md border border-border px-4 py-2 text-sm text-foreground hover:border-primary hover:text-primary transition-colors"
+            className="text-sm text-muted-foreground hover:text-primary transition-colors"
           >
             Ver CV
           </a>
