@@ -68,7 +68,7 @@ export const CustomNavbar = () => {
             ))}
 
             <a
-              href="/CV-GerezRoque.pdf"
+              href="/files/CV-GerezRoque.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm text-muted-foreground hover:text-primary transition-colors"
