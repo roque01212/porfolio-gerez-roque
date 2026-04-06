@@ -26,7 +26,7 @@ export const CustomFooter = () => {
               <FaGithub size={24} />
             </a>
             {/*  Futuro linkedin */}
-            {/* <a
+            <a
               href="https://linkedin.com/in/roque01212"
               target="_blank"
               rel="noopener noreferrer"
@@ -34,7 +34,7 @@ export const CustomFooter = () => {
               className="text-muted-foreground hover:text-primary transition-colors"
             >
               <FaLinkedin size={24} />
-            </a> */}
+            </a>
 
             <a
               href="mailto:roque_gerez@hotmail.com"

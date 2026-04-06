@@ -1,6 +1,5 @@
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-import { Link } from "react-router";
 
 const navLinks = [
   { label: "Sobre mí", href: "#sobre-mi" },
@@ -68,7 +67,7 @@ export const CustomNavbar = () => {
             ))}
 
             <a
-              href="/files/CV-GerezRoque.pdf"
+              href="/CV-GerezRoque.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm text-muted-foreground hover:text-primary transition-colors"
